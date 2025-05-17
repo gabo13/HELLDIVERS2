@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Képválasztó</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        #canvas-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px;
+        }
+        canvas {
+            border: 3px solid #000;
+            cursor: pointer;
+        }
+        dialog::backdrop {
+            background: rgba(0, 0, 0, 0.3);
+        }
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 50px);
+            gap: 2px;
+            justify-content: center;
+            margin-top: 10px;
+			width: 100%;
+        }
+        .tile {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            image-rendering: pixelated;
+        }
+		.select-canvas {
+			border: 3px solid green;
+		}
+		#tileDialog {
+			width: 50%;
+		}
+    </style>
+</head>
+<body>
+    <h1>Canvas képválasztó</h1>
+    <div id="canvas-container">
+        <canvas width="126" height="126"></canvas>
+        <canvas width="126" height="126"></canvas>
+        <canvas width="126" height="126"></canvas>
+        <canvas width="126" height="126"></canvas>
+        <canvas width="126" height="126"></canvas>
+    </div>
+    <button id="openDialog">Game Mode</button>
+
+    <dialog id="tileDialog">
+        <p>Válassz egy képet:</p>
+        <div id="grid"></div>
+        <button onclick="tileDialog.close()">Bezár</button>
+    </dialog>
+
+    <script>
+        const canvases = document.querySelectorAll("canvas");
+        let selectedCanvas = null;
+		let editMode = true;
+		const tileDialog = document.getElementById("tileDialog");
+		
+		
+        canvases.forEach(canvas => {
+            canvas.addEventListener("click", () => {
+                selectedCanvas = canvas;
+				canvases.forEach(c => {
+					c.classList.remove("select-canvas");
+				});
+				selectedCanvas.classList.add("select-canvas");
+				if (editMode) {
+					tileDialog.showModal();
+				} else {
+					fetch("/",{
+					headers: {
+						"Content-type": "application/json"
+					},
+					method: "POST",
+					body: JSON.stringify({"text": "hello"}),
+					})
+				}
+            });
+        });
+
+        
+        document.getElementById("openDialog").addEventListener("click", function() {
+            if (editMode) {
+				editMode = false;
+				this.textContent = "Edit Mode";
+			} else {
+				editMode = true;
+				this.textContent = "Game Mode";
+				
+			}
+			//console.log(this.textContent,this);
+			//tileDialog.showModal();
+        });
+
+        // Kép forrás (sprite sheet)
+        const img = new Image();
+        img.src = "output.png"; // ez legyen egy létező 12x12-es képkockákból álló sprite sheet
+
+        img.onload = () => {
+            const grid = document.getElementById("grid");
+            const tileSize = 126;
+            const tilesPerRow = Math.floor(img.width / tileSize);
+            const tilesPerCol = Math.floor(img.height / tileSize);
+
+            for (let y = 0; y < tilesPerCol; y++) {
+                for (let x = 0; x < tilesPerRow; x++) {
+                    const tileCanvas = document.createElement("canvas");
+                    tileCanvas.width = tileSize;
+                    tileCanvas.height = tileSize;
+                    tileCanvas.classList.add("tile");
+
+                    const ctx = tileCanvas.getContext("2d");
+                    ctx.drawImage(
+                        img,
+                        x * tileSize, y * tileSize,
+                        tileSize, tileSize,
+                        0, 0,
+                        tileSize, tileSize
+                    );
+
+                    tileCanvas.addEventListener("click", () => {
+                        if (selectedCanvas && editMode) {
+                            const selectedCtx = selectedCanvas.getContext("2d");
+                            selectedCtx.clearRect(0, 0, selectedCanvas.width, selectedCanvas.height);
+                            selectedCtx.drawImage(
+                                img,
+                                x * tileSize, y * tileSize,
+                                tileSize, tileSize,
+                                0, 0,
+                                selectedCanvas.width, selectedCanvas.height
+                            );
+                            tileDialog.close();
+                        }
+                    });
+
+                    grid.appendChild(tileCanvas);
+                }
+            }
+        };
+    </script>
+</body>
+</html>

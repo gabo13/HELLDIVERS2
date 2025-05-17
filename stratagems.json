@@ -1,0 +1,488 @@
+[
+    {
+        "name": "MG-43 Machine Gun",
+        "keys": "dldur",
+        "image": "Machine_Gun_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "APW-1 Anti-Materiel Rifle",
+        "keys": "dlrud",
+        "image": "Anti-Materiel_Rifle_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "M-105 Stalwart",
+        "keys": "dlduul",
+        "image": "Stalwart_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "EAT-17 Expendable Anti-Tank",
+        "keys": "ddlur",
+        "image": "Expendable_Anti-Tank_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "GR-8 Recoilless Rifle",
+        "keys": "dlrrl",
+        "image": "Recoilless_Rifle_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "FLAM-40 Flamethrower",
+        "keys": "dludu",
+        "image": "Flamethrower_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "AC-8 Autocannon",
+        "keys": "dlduur",
+        "image": "Autocannon_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "MG-206 Heavy Machine Gun",
+        "keys": "dludd",
+        "image": "Heavy_Machine_Gun_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "RL-77 Airburst Rocket Launcher",
+        "keys": "duulr",
+        "image": "RL-77_Airburst_Rocket_Launcher_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "MLS-4X Commando",
+        "keys": "dludr",
+        "image": "Commando_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "RS-422 Railgun",
+        "keys": "drdulr",
+        "image": "Railgun_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "FAF-14 Spear",
+        "keys": "ddudd",
+        "image": "Spear_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "StA-X3 W.A.S.P. Launcher",
+        "keys": "ddudr",
+        "image": "StA-X3_W.A.S.P._Launcher_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "Orbital Gatling Barrage",
+        "keys": "rdluu",
+        "image": "Orbital_Gatling_Barrage_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital Airburst Strike",
+        "keys": "rrr",
+        "image": "Orbital_Airburst_Strike_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital 120mm HE Barrage",
+        "keys": "rrdlrd",
+        "image": "Orbital_120mm_HE_Barrage_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital 380mm HE Barrage",
+        "keys": "rduuldd",
+        "image": "Orbital_380mm_HE_Barrage_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital Walking Barrage",
+        "keys": "rdrdrd",
+        "image": "Orbital_Walking_Barrage_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital Laser",
+        "keys": "rdurd",
+        "image": "Orbital_Laser_Stratagem_Icon.png",
+        "class": ""
+    },
+    {
+        "name": "Orbital Napalm Barrage",
+        "keys": "rrdlru",
+        "image": "Orbital_Napalm_Barrage_Stratagem_Icon.png",
+        "class": ""
+    },
+    {
+        "name": "Orbital Railcannon Strike",
+        "keys": "ruddr",
+        "image": "Orbital_Railcannon_Strike_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital Precision Strike",
+        "keys": "rru",
+        "image": "Orbital_Precision_Strike_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital Gas Strike",
+        "keys": "rrdr",
+        "image": "Orbital_Gas_Strike_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital EMS Strike",
+        "keys": "rrld",
+        "image": "Orbital_EMS_Strike_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Orbital Smoke Strike",
+        "keys": "rrdu",
+        "image": "Orbital_Smoke_Strike_Stratagem_Icon.png",
+        "class": "2"
+    },
+    {
+        "name": "Eagle Strafing Run",
+        "keys": "urr",
+        "image": "Eagle_Strafing_Run_Stratagem_Icon.png",
+        "class": "3"
+    },
+    {
+        "name": "Eagle Airstrike",
+        "keys": "urdr",
+        "image": "Eagle_Airstrike_Stratagem_Icon.png",
+        "class": "3"
+    },
+    {
+        "name": "Eagle Cluster Bomb",
+        "keys": "urddr",
+        "image": "Eagle_Cluster_Bomb_Stratagem_Icon.png",
+        "class": "3"
+    },
+    {
+        "name": "Eagle Napalm Airstrike",
+        "keys": "urdu",
+        "image": "Eagle_Napalm_Airstrike_Stratagem_Icon.png",
+        "class": "3"
+    },
+    {
+        "name": "Eagle Smoke Strike",
+        "keys": "urud",
+        "image": "Eagle_Smoke_Strike_Stratagem_Icon.png",
+        "class": "3"
+    },
+    {
+        "name": "Eagle 110mm Rocket Pods",
+        "keys": "urul",
+        "image": "Eagle_110mm_Rocket_Pods_Stratagem_Icon.png",
+        "class": "3"
+    },
+    {
+        "name": "Eagle 500kg Bomb",
+        "keys": "urddd",
+        "image": "Eagle_500kg_Bomb_Stratagem_Icon.png",
+        "class": "3"
+    },
+    {
+        "name": "LIFT-850 Jump Pack",
+        "keys": "duudu",
+        "image": "Jump_Pack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "M-102 Fast Recon Vehicle",
+        "keys": "ldrdrdu",
+        "image": "M-102_Fast_Recon_Vehicle_Stratagem_Icon.png",
+        "class": "5"
+    },
+    {
+        "name": "E/MG-101 HMG Emplacement",
+        "keys": "dulrrl",
+        "image": "HMG_Emplacement_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "FX-12 Shield Generator Relay",
+        "keys": "ddlrlr",
+        "image": "Shield_Generator_Relay_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "A/ARC-3 Tesla Tower",
+        "keys": "durulr",
+        "image": "Tesla_Tower_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "E/GL-21 Grenadier Battlement",
+        "keys": "drdlr",
+        "image": "GL-21_Grenadier_Battlement_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "MD-6 Anti-Personnel Minefield",
+        "keys": "dlur",
+        "image": "Anti-Personnel_Minefield_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "B-1 Supply Pack",
+        "keys": "dlduud",
+        "image": "Supply_Pack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "GL-21 Grenade Launcher",
+        "keys": "dluld",
+        "image": "Grenade_Launcher_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "LAS-98 Laser Cannon",
+        "keys": "dldul",
+        "image": "Laser_Cannon_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "MD-I4 Incendiary Mines",
+        "keys": "dlld",
+        "image": "Incendiary_Mines_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "AX/LAS-5 Guard Dog Rover",
+        "keys": "dulurr",
+        "image": "Guard_Dog_Rover_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "SH-20 Ballistic Shield Backpack",
+        "keys": "dlddul",
+        "image": "Ballistic_Shield_Backpack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "ARC-3 Arc Thrower",
+        "keys": "drdull",
+        "image": "Arc_Thrower_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "MD-17 Anti-Tank Mines",
+        "keys": "dluu",
+        "image": "MD-17_Anti-Tank_Mines_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "LAS-99 Quasar Cannon",
+        "keys": "ddulr",
+        "image": "Quasar_Cannon_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "SH-32 Shield Generator Pack",
+        "keys": "dulrlr",
+        "image": "Shield_Generator_Pack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "MD-8 Gas Mines",
+        "keys": "dllr",
+        "image": "Gas_Minefield_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "A/MG-43 Machine Gun Sentry",
+        "keys": "durru",
+        "image": "Machine_Gun_Sentry_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "A/G-16 Gatling Sentry",
+        "keys": "durl",
+        "image": "Gatling_Sentry_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "A/M-12 Mortar Sentry",
+        "keys": "durrd",
+        "image": "Mortar_Sentry_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "AX/AR-23 Guard Dog",
+        "keys": "dulurd",
+        "image": "Guard_Dog_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "A/AC-8 Autocannon Sentry",
+        "keys": "durulu",
+        "image": "Autocannon_Sentry_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "A/MLS-4X Rocket Sentry",
+        "keys": "durrl",
+        "image": "Rocket_Sentry_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "A/M-23 EMS Mortar Sentry",
+        "keys": "durdr",
+        "image": "AM-23_EMS_Mortar_Sentry_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "EXO-45 Patriot Exosuit",
+        "keys": "ldruldd",
+        "image": "EXO-45_Patriot_Exosuit_Stratagem_Icon.png",
+        "class": "5"
+    },
+    {
+        "name": "EXO-49 Emancipator Exosuit",
+        "keys": "ldruldu",
+        "image": "EXO-49_Emancipator_Exosuit_Stratagem_Icon.png",
+        "class": "5"
+    },
+    {
+        "name": "TX-41 Sterilizer",
+        "keys": "dludl",
+        "image": "Sterilizer_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "AX/TX-13 Guard Dog Dog Breath",
+        "keys": "duluru",
+        "image": "Guard_Dog_Dog_Breath_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "SH-51 Directional Shield",
+        "keys": "dulruu",
+        "image": "SH-51_Directional_Shield_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "E/AT-12 Anti-Tank Emplacement",
+        "keys": "dulrrr",
+        "image": "E_AT-12_Anti-Tank_Emplacement_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "A/FLAM-40 Flame Sentry",
+        "keys": "durduu",
+        "image": "A_FLAM-40_Flame_Sentry_Stratagem_Icon.png",
+        "class": "4"
+    },
+    {
+        "name": "B-100 Portable Hellbomb",
+        "keys": "druuu",
+        "image": "Portable_Hellbomb_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "LIFT-860 Hover Pack",
+        "keys": "duudlr",
+        "image": "Hover_Pack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "Reinforce",
+        "keys": "udrlu",
+        "image": "Reinforce_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "SoS Beacon",
+        "keys": "udru",
+        "image": "SOS_Beacon_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Resupply",
+        "keys": "ddur",
+        "image": "Resupply_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Eagle Rearm",
+        "keys": "uulur",
+        "image": "Eagle_Rearm_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "SSSD Delivery",
+        "keys": "ddduu",
+        "image": "Upload_Data_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Prospecting Drill",
+        "keys": "ddlrdd",
+        "image": "Seismic_Probe_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Super Earth Flag",
+        "keys": "dudu",
+        "image": "Super_Earth_Flag_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Hellbomb",
+        "keys": "duldurdu",
+        "image": "Hellbomb_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Upload Data",
+        "keys": "lruuu",
+        "image": "Upload_Data_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Seismic Probe",
+        "keys": "uulrdd",
+        "image": "Seismic_Probe_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Orbital Illumination Flare",
+        "keys": "rrll",
+        "image": "Orbital_Illumination_Flare_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "SEAF Artillery",
+        "keys": "ruud",
+        "image": "SEAF_Artillery_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Dark Fluid Vessel",
+        "keys": "ulrduu",
+        "image": "Dark_Fluid_Vessel_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Tectonic Drill",
+        "keys": "ududud",
+        "image": "Seismic_Probe_Stratagem_Icon.png",
+        "class": "6"
+    },
+    {
+        "name": "Hive Breaker Drill",
+        "keys": "ludrdd",
+        "image": "Seismic_Probe_Stratagem_Icon.png",
+        "class": "6"
+    }
+]
