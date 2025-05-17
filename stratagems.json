@@ -78,6 +78,96 @@
         "class": "0"
     },
     {
+        "name": "GL-21 Grenade Launcher",
+        "keys": "dluld",
+        "image": "Grenade_Launcher_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "LAS-98 Laser Cannon",
+        "keys": "dldul",
+        "image": "Laser_Cannon_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "ARC-3 Arc Thrower",
+        "keys": "drdull",
+        "image": "Arc_Thrower_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "LAS-99 Quasar Cannon",
+        "keys": "ddulr",
+        "image": "Quasar_Cannon_Stratagem_Icon.png",
+        "class": "0"
+    },
+    {
+        "name": "LIFT-850 Jump Pack",
+        "keys": "duudu",
+        "image": "Jump_Pack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "B-1 Supply Pack",
+        "keys": "dlduud",
+        "image": "Supply_Pack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "AX/LAS-5 Guard Dog Rover",
+        "keys": "dulurr",
+        "image": "Guard_Dog_Rover_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "SH-20 Ballistic Shield Backpack",
+        "keys": "dlddul",
+        "image": "Ballistic_Shield_Backpack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "SH-32 Shield Generator Pack",
+        "keys": "dulrlr",
+        "image": "Shield_Generator_Pack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "AX/AR-23 Guard Dog",
+        "keys": "dulurd",
+        "image": "Guard_Dog_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "AX/TX-13 Guard Dog Dog Breath",
+        "keys": "duluru",
+        "image": "Guard_Dog_Dog_Breath_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "TX-41 Sterilizer",
+        "keys": "dludl",
+        "image": "Sterilizer_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "B-100 Portable Hellbomb",
+        "keys": "druuu",
+        "image": "Portable_Hellbomb_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "LIFT-860 Hover Pack",
+        "keys": "duudlr",
+        "image": "Hover_Pack_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
+        "name": "SH-51 Directional Shield",
+        "keys": "dulruu",
+        "image": "SH-51_Directional_Shield_Stratagem_Icon.png",
+        "class": "1"
+    },
+    {
         "name": "Orbital Gatling Barrage",
         "keys": "rdluu",
         "image": "Orbital_Gatling_Barrage_Stratagem_Icon.png",
@@ -111,13 +201,13 @@
         "name": "Orbital Laser",
         "keys": "rdurd",
         "image": "Orbital_Laser_Stratagem_Icon.png",
-        "class": ""
+        "class": "2"
     },
     {
         "name": "Orbital Napalm Barrage",
         "keys": "rrdlru",
         "image": "Orbital_Napalm_Barrage_Stratagem_Icon.png",
-        "class": ""
+        "class": "2"
     },
     {
         "name": "Orbital Railcannon Strike",
@@ -192,18 +282,6 @@
         "class": "3"
     },
     {
-        "name": "LIFT-850 Jump Pack",
-        "keys": "duudu",
-        "image": "Jump_Pack_Stratagem_Icon.png",
-        "class": "1"
-    },
-    {
-        "name": "M-102 Fast Recon Vehicle",
-        "keys": "ldrdrdu",
-        "image": "M-102_Fast_Recon_Vehicle_Stratagem_Icon.png",
-        "class": "5"
-    },
-    {
         "name": "E/MG-101 HMG Emplacement",
         "keys": "dulrrl",
         "image": "HMG_Emplacement_Stratagem_Icon.png",
@@ -234,64 +312,16 @@
         "class": "4"
     },
     {
-        "name": "B-1 Supply Pack",
-        "keys": "dlduud",
-        "image": "Supply_Pack_Stratagem_Icon.png",
-        "class": "1"
-    },
-    {
-        "name": "GL-21 Grenade Launcher",
-        "keys": "dluld",
-        "image": "Grenade_Launcher_Stratagem_Icon.png",
-        "class": "0"
-    },
-    {
-        "name": "LAS-98 Laser Cannon",
-        "keys": "dldul",
-        "image": "Laser_Cannon_Stratagem_Icon.png",
-        "class": "0"
-    },
-    {
         "name": "MD-I4 Incendiary Mines",
         "keys": "dlld",
         "image": "Incendiary_Mines_Stratagem_Icon.png",
         "class": "4"
     },
     {
-        "name": "AX/LAS-5 Guard Dog Rover",
-        "keys": "dulurr",
-        "image": "Guard_Dog_Rover_Stratagem_Icon.png",
-        "class": "1"
-    },
-    {
-        "name": "SH-20 Ballistic Shield Backpack",
-        "keys": "dlddul",
-        "image": "Ballistic_Shield_Backpack_Stratagem_Icon.png",
-        "class": "1"
-    },
-    {
-        "name": "ARC-3 Arc Thrower",
-        "keys": "drdull",
-        "image": "Arc_Thrower_Stratagem_Icon.png",
-        "class": "0"
-    },
-    {
         "name": "MD-17 Anti-Tank Mines",
         "keys": "dluu",
         "image": "MD-17_Anti-Tank_Mines_Stratagem_Icon.png",
         "class": "4"
-    },
-    {
-        "name": "LAS-99 Quasar Cannon",
-        "keys": "ddulr",
-        "image": "Quasar_Cannon_Stratagem_Icon.png",
-        "class": "0"
-    },
-    {
-        "name": "SH-32 Shield Generator Pack",
-        "keys": "dulrlr",
-        "image": "Shield_Generator_Pack_Stratagem_Icon.png",
-        "class": "1"
     },
     {
         "name": "MD-8 Gas Mines",
@@ -318,12 +348,6 @@
         "class": "4"
     },
     {
-        "name": "AX/AR-23 Guard Dog",
-        "keys": "dulurd",
-        "image": "Guard_Dog_Stratagem_Icon.png",
-        "class": "1"
-    },
-    {
         "name": "A/AC-8 Autocannon Sentry",
         "keys": "durulu",
         "image": "Autocannon_Sentry_Stratagem_Icon.png",
@@ -342,36 +366,6 @@
         "class": "4"
     },
     {
-        "name": "EXO-45 Patriot Exosuit",
-        "keys": "ldruldd",
-        "image": "EXO-45_Patriot_Exosuit_Stratagem_Icon.png",
-        "class": "5"
-    },
-    {
-        "name": "EXO-49 Emancipator Exosuit",
-        "keys": "ldruldu",
-        "image": "EXO-49_Emancipator_Exosuit_Stratagem_Icon.png",
-        "class": "5"
-    },
-    {
-        "name": "TX-41 Sterilizer",
-        "keys": "dludl",
-        "image": "Sterilizer_Stratagem_Icon.png",
-        "class": "1"
-    },
-    {
-        "name": "AX/TX-13 Guard Dog Dog Breath",
-        "keys": "duluru",
-        "image": "Guard_Dog_Dog_Breath_Stratagem_Icon.png",
-        "class": "1"
-    },
-    {
-        "name": "SH-51 Directional Shield",
-        "keys": "dulruu",
-        "image": "SH-51_Directional_Shield_Stratagem_Icon.png",
-        "class": "1"
-    },
-    {
         "name": "E/AT-12 Anti-Tank Emplacement",
         "keys": "dulrrr",
         "image": "E_AT-12_Anti-Tank_Emplacement_Stratagem_Icon.png",
@@ -384,16 +378,22 @@
         "class": "4"
     },
     {
-        "name": "B-100 Portable Hellbomb",
-        "keys": "druuu",
-        "image": "Portable_Hellbomb_Stratagem_Icon.png",
-        "class": "1"
+        "name": "M-102 Fast Recon Vehicle",
+        "keys": "ldrdrdu",
+        "image": "M-102_Fast_Recon_Vehicle_Stratagem_Icon.png",
+        "class": "5"
     },
     {
-        "name": "LIFT-860 Hover Pack",
-        "keys": "duudlr",
-        "image": "Hover_Pack_Stratagem_Icon.png",
-        "class": "1"
+        "name": "EXO-45 Patriot Exosuit",
+        "keys": "ldruldd",
+        "image": "EXO-45_Patriot_Exosuit_Stratagem_Icon.png",
+        "class": "5"
+    },
+    {
+        "name": "EXO-49 Emancipator Exosuit",
+        "keys": "ldruldu",
+        "image": "EXO-49_Emancipator_Exosuit_Stratagem_Icon.png",
+        "class": "5"
     },
     {
         "name": "Reinforce",

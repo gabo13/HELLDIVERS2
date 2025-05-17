@@ -12,13 +12,28 @@ MLS-4X Commando;dludr;Commando_Stratagem_Icon.png;0
 RS-422 Railgun;drdulr;Railgun_Stratagem_Icon.png;0
 FAF-14 Spear;ddudd;Spear_Stratagem_Icon.png;0
 StA-X3 W.A.S.P. Launcher;ddudr;StA-X3_W.A.S.P._Launcher_Stratagem_Icon.png;0
+GL-21 Grenade Launcher;dluld;Grenade_Launcher_Stratagem_Icon.png;0
+LAS-98 Laser Cannon;dldul;Laser_Cannon_Stratagem_Icon.png;0
+ARC-3 Arc Thrower;drdull;Arc_Thrower_Stratagem_Icon.png;0
+LAS-99 Quasar Cannon;ddulr;Quasar_Cannon_Stratagem_Icon.png;0
+LIFT-850 Jump Pack;duudu;Jump_Pack_Stratagem_Icon.png;1
+B-1 Supply Pack;dlduud;Supply_Pack_Stratagem_Icon.png;1
+AX/LAS-5 Guard Dog Rover;dulurr;Guard_Dog_Rover_Stratagem_Icon.png;1
+SH-20 Ballistic Shield Backpack;dlddul;Ballistic_Shield_Backpack_Stratagem_Icon.png;1
+SH-32 Shield Generator Pack;dulrlr;Shield_Generator_Pack_Stratagem_Icon.png;1
+AX/AR-23 Guard Dog;dulurd;Guard_Dog_Stratagem_Icon.png;1
+AX/TX-13 Guard Dog Dog Breath;duluru;Guard_Dog_Dog_Breath_Stratagem_Icon.png;1
+TX-41 Sterilizer;dludl;Sterilizer_Stratagem_Icon.png;1
+B-100 Portable Hellbomb;druuu;Portable_Hellbomb_Stratagem_Icon.png;1
+LIFT-860 Hover Pack;duudlr;Hover_Pack_Stratagem_Icon.png;1
+SH-51 Directional Shield;dulruu;SH-51_Directional_Shield_Stratagem_Icon.png;1
 Orbital Gatling Barrage;rdluu;Orbital_Gatling_Barrage_Stratagem_Icon.png;2
 Orbital Airburst Strike;rrr;Orbital_Airburst_Strike_Stratagem_Icon.png;2
 Orbital 120mm HE Barrage;rrdlrd;Orbital_120mm_HE_Barrage_Stratagem_Icon.png;2
 Orbital 380mm HE Barrage;rduuldd;Orbital_380mm_HE_Barrage_Stratagem_Icon.png;2
 Orbital Walking Barrage;rdrdrd;Orbital_Walking_Barrage_Stratagem_Icon.png;2
-Orbital Laser;rdurd;Orbital_Laser_Stratagem_Icon.png;
-Orbital Napalm Barrage;rrdlru;Orbital_Napalm_Barrage_Stratagem_Icon.png;
+Orbital Laser;rdurd;Orbital_Laser_Stratagem_Icon.png;2
+Orbital Napalm Barrage;rrdlru;Orbital_Napalm_Barrage_Stratagem_Icon.png;2
 Orbital Railcannon Strike;ruddr;Orbital_Railcannon_Strike_Stratagem_Icon.png;2
 Orbital Precision Strike;rru;Orbital_Precision_Strike_Stratagem_Icon.png;2
 Orbital Gas Strike;rrdr;Orbital_Gas_Strike_Stratagem_Icon.png;2
@@ -31,40 +46,25 @@ Eagle Napalm Airstrike;urdu;Eagle_Napalm_Airstrike_Stratagem_Icon.png;3
 Eagle Smoke Strike;urud;Eagle_Smoke_Strike_Stratagem_Icon.png;3
 Eagle 110mm Rocket Pods;urul;Eagle_110mm_Rocket_Pods_Stratagem_Icon.png;3
 Eagle 500kg Bomb;urddd;Eagle_500kg_Bomb_Stratagem_Icon.png;3
-LIFT-850 Jump Pack;duudu;Jump_Pack_Stratagem_Icon.png;1
-M-102 Fast Recon Vehicle;ldrdrdu;M-102_Fast_Recon_Vehicle_Stratagem_Icon.png;5
 E/MG-101 HMG Emplacement;dulrrl;HMG_Emplacement_Stratagem_Icon.png;4
 FX-12 Shield Generator Relay;ddlrlr;Shield_Generator_Relay_Stratagem_Icon.png;4
 A/ARC-3 Tesla Tower;durulr;Tesla_Tower_Stratagem_Icon.png;4
 E/GL-21 Grenadier Battlement;drdlr;GL-21_Grenadier_Battlement_Stratagem_Icon.png;4
 MD-6 Anti-Personnel Minefield;dlur;Anti-Personnel_Minefield_Stratagem_Icon.png;4
-B-1 Supply Pack;dlduud;Supply_Pack_Stratagem_Icon.png;1
-GL-21 Grenade Launcher;dluld;Grenade_Launcher_Stratagem_Icon.png;0
-LAS-98 Laser Cannon;dldul;Laser_Cannon_Stratagem_Icon.png;0
 MD-I4 Incendiary Mines;dlld;Incendiary_Mines_Stratagem_Icon.png;4
-AX/LAS-5 Guard Dog Rover;dulurr;Guard_Dog_Rover_Stratagem_Icon.png;1
-SH-20 Ballistic Shield Backpack;dlddul;Ballistic_Shield_Backpack_Stratagem_Icon.png;1
-ARC-3 Arc Thrower;drdull;Arc_Thrower_Stratagem_Icon.png;0
 MD-17 Anti-Tank Mines;dluu;MD-17_Anti-Tank_Mines_Stratagem_Icon.png;4
-LAS-99 Quasar Cannon;ddulr;Quasar_Cannon_Stratagem_Icon.png;0
-SH-32 Shield Generator Pack;dulrlr;Shield_Generator_Pack_Stratagem_Icon.png;1
 MD-8 Gas Mines;dllr;Gas_Minefield_Stratagem_Icon.png;4
 A/MG-43 Machine Gun Sentry;durru;Machine_Gun_Sentry_Stratagem_Icon.png;4
 A/G-16 Gatling Sentry;durl;Gatling_Sentry_Stratagem_Icon.png;4
 A/M-12 Mortar Sentry;durrd;Mortar_Sentry_Stratagem_Icon.png;4
-AX/AR-23 Guard Dog;dulurd;Guard_Dog_Stratagem_Icon.png;1
 A/AC-8 Autocannon Sentry;durulu;Autocannon_Sentry_Stratagem_Icon.png;4
 A/MLS-4X Rocket Sentry;durrl;Rocket_Sentry_Stratagem_Icon.png;4
 A/M-23 EMS Mortar Sentry;durdr;AM-23_EMS_Mortar_Sentry_Stratagem_Icon.png;4
-EXO-45 Patriot Exosuit;ldruldd;EXO-45_Patriot_Exosuit_Stratagem_Icon.png;5
-EXO-49 Emancipator Exosuit;ldruldu;EXO-49_Emancipator_Exosuit_Stratagem_Icon.png;5
-TX-41 Sterilizer;dludl;Sterilizer_Stratagem_Icon.png;1
-AX/TX-13 Guard Dog Dog Breath;duluru;Guard_Dog_Dog_Breath_Stratagem_Icon.png;1
-SH-51 Directional Shield;dulruu;SH-51_Directional_Shield_Stratagem_Icon.png;1
 E/AT-12 Anti-Tank Emplacement;dulrrr;E_AT-12_Anti-Tank_Emplacement_Stratagem_Icon.png;4
 A/FLAM-40 Flame Sentry;durduu;A_FLAM-40_Flame_Sentry_Stratagem_Icon.png;4
-B-100 Portable Hellbomb;druuu;Portable_Hellbomb_Stratagem_Icon.png;1
-LIFT-860 Hover Pack;duudlr;Hover_Pack_Stratagem_Icon.png;1
+M-102 Fast Recon Vehicle;ldrdrdu;M-102_Fast_Recon_Vehicle_Stratagem_Icon.png;5
+EXO-45 Patriot Exosuit;ldruldd;EXO-45_Patriot_Exosuit_Stratagem_Icon.png;5
+EXO-49 Emancipator Exosuit;ldruldu;EXO-49_Emancipator_Exosuit_Stratagem_Icon.png;5
 Reinforce;udrlu;Reinforce_Stratagem_Icon.png;6
 SoS Beacon;udru;SOS_Beacon_Stratagem_Icon.png;6
 Resupply;ddur;Resupply_Stratagem_Icon.png;6

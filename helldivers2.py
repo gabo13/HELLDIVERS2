@@ -1,9 +1,9 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
+from http.server import BaseHTTPRequestHandler, HTTPServer, SimpleHTTPRequestHandler
 import json
 import os
 
-class MyRequestHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
+class MyRequestHandler(SimpleHTTPRequestHandler):
+    """def do_GET(self):
         if self.path == '/' or self.path == '/index.html':
             try:
                 with open('index.html', 'rb') as file:
@@ -35,7 +35,7 @@ class MyRequestHandler(BaseHTTPRequestHandler):
             self.send_header('Content-Type', 'text/plain')
             self.end_headers()
             self.wfile.write(b'Az oldal nem talalhato.')
-
+"""
     def do_POST(self):
         content_length = int(self.headers.get('Content-Length', 0))
         post_data = self.rfile.read(content_length)

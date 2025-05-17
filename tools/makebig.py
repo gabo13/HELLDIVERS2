@@ -4,7 +4,7 @@ import os
 # Beállítások
 sorok = 8
 oszlopok = 10
-mappa = 'kicsinyített_kepek/'  # ahol a képek vannak
+mappa = 'kicsinyitett_kepek/'  # ahol a képek vannak
 kimenet_fajl = 'output.png'
 
 # Csak PNG fájlokat keresünk

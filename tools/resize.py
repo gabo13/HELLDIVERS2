@@ -2,8 +2,9 @@ from PIL import Image
 import os
 
 # Mappák
-bemeneti_mappa = 'stratagems/'
-kimeneti_mappa = 'kicsinyitett_kepek/'
+bemeneti_mappa = os.path.abspath('stratagems/')
+print("bm",bemeneti_mappa)
+kimeneti_mappa = os.path.abspath('kicsinyitett_kepek/')
 
 # PNG fájlok beolvasása
 fajlok = [f for f in os.listdir(bemeneti_mappa) if f.lower().endswith('.png')]
