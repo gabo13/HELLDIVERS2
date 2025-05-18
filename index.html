@@ -35,7 +35,7 @@
             cursor: pointer;
             image-rendering: pixelated;
         }
-		.select-canvas {
+		.select-img {
 			border: 3px solid green;
 		}
 		#tileDialog {
@@ -46,11 +46,11 @@
 <body>
     <h1>Canvas képválasztó</h1>
     <div id="canvas-container">
-        <canvas width="126" height="126"></canvas>
-        <canvas width="126" height="126"></canvas>
-        <canvas width="126" height="126"></canvas>
-        <canvas width="126" height="126"></canvas>
-        <canvas width="126" height="126"></canvas>
+        <img width="126" height="126">
+        <img width="126" height="126">
+        <img width="126" height="126">
+        <img width="126" height="126">
+        <img width="126" height="126">
     </div>
     <button id="openDialog">Game Mode</button>
 
@@ -61,19 +61,19 @@
     </dialog>
 
     <script>
-        const canvases = document.querySelectorAll("canvas");
-        let selectedCanvas = null;
+        const images = document.querySelectorAll("#canvas-container img");
+        let selectedImg = null;
 		let editMode = true;
 		const tileDialog = document.getElementById("tileDialog");
 		
 		
-        canvases.forEach(canvas => {
-            canvas.addEventListener("click", () => {
-                selectedCanvas = canvas;
-				canvases.forEach(c => {
-					c.classList.remove("select-canvas");
+        images.forEach(image => {
+            image.addEventListener("click", () => {
+                selectedImg = image;
+				images.forEach(c => {
+					c.classList.remove("select-img");
 				});
-				selectedCanvas.classList.add("select-canvas");
+				selectedImg.classList.add("select-img");
 				if (editMode) {
 					tileDialog.showModal();
 				} else {
@@ -82,7 +82,7 @@
 						"Content-type": "application/json"
 					},
 					method: "POST",
-					body: JSON.stringify({"text": "hello"}),
+					body: JSON.stringify({"command": "stratagem","stratagem": selectedImg.dataset.keys}),
 					})
 				}
             });
@@ -101,9 +101,45 @@
 			//console.log(this.textContent,this);
 			//tileDialog.showModal();
         });
+        
+        function udlrToWsad(json) { //ezt még meg kell írni
+                json.array.forEach(element => {
+                    element.forEach(karakter => {
+                        
+                    });
+                });
+        }
 
+        async function loadStratagems() {
+            const response = await fetch('/stratagems.json')
+            const data = await response.json()
+            return data
+        }
+        async function loadImages() {
+            const stargems = await loadStratagems();
+            const grid = document.getElementById('grid');
+            stargems.forEach(stratagem => {
+                const img = new Image();
+                img.src = "kicsinyitett_kepek/"+stratagem.image;
+                img.classList.add('tile');
+                img.dataset.name = stratagem.name;
+                img.dataset.class = stratagem.class;
+                img.dataset.keys = stratagem.keys;
+                img.addEventListener("click",(e)=>{
+                    if (selectedImg && editMode) {
+                        selectedImg.src = img.src;
+                        selectedImg.dataset.name = img.dataset.name;
+                        selectedImg.dataset.class = img.dataset.class;
+                        selectedImg.dataset.keys = img.dataset.keys;
+                        tileDialog.close();
+                    }
+                });
+                grid.appendChild(img);
+            });
+        }
+        loadImages();
         // Kép forrás (sprite sheet)
-        const img = new Image();
+        /* const img = new Image();
         img.src = "output.png"; // ez legyen egy létező 12x12-es képkockákból álló sprite sheet
 
         img.onload = () => {
@@ -146,7 +182,7 @@
                     grid.appendChild(tileCanvas);
                 }
             }
-        };
+        }; */
     </script>
 </body>
 </html>
