@@ -1,0 +1,23 @@
+import json
+from pprint import pprint
+json_output = 'wsad.json'
+json_input = 'stratagems.json'
+
+data = None
+with open(json_input, 'rt') as f:
+    data = json.load(f)
+
+for item in data:
+    keys = item['keys']
+    newkey = ''
+    for c in keys:
+        if c == 'u': newkey = newkey+'w'
+        elif c == 'd': newkey = newkey+'s'
+        elif c == 'l': newkey = newkey+'a'
+        elif c == 'r': newkey = newkey+'d'
+    print(newkey)
+    item['keys'] = newkey
+    newkey = ''
+        
+with open(json_output,'wt') as f:
+    json.dump(fp=f,obj=data,indent=4)

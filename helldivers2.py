@@ -210,17 +210,22 @@ class MyRequestHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(json.dumps(response).encode('utf-8'))
 
-times_keypress = [0.1,0.2,0.15,0.22,0.13]
+times_keypress = [0.1]#,3.5,0.4,0.45,0.5]
+
+def wait():
+    time.sleep(0.1)
 
 def stratagem_run(keys):
+    print('keys: ',keys)
     win32api.keybd_event(VK_CODE['left_control'], 0, 0, 0)
-    time.sleep(random.choice(times_keypress))
+    wait()
     for key in keys:
         win32api.keybd_event(VK_CODE[key], 0, 0, 0)
-        time.sleep(random.choice(times_keypress))
+        wait()
         win32api.keybd_event(VK_CODE[key], 0, win32con.KEYEVENTF_KEYUP, 0)
+        wait()
     win32api.keybd_event(VK_CODE['left_control'], 0, win32con.KEYEVENTF_KEYUP, 0)
-
+    wait()
 
 def run(server_class=HTTPServer, handler_class=MyRequestHandler, port=8080):
     server_address = ('0.0.0.0', port)

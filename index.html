@@ -7,10 +7,12 @@
         body {
             font-family: sans-serif;
             text-align: center;
+            background-color: #222;
         }
         #canvas-container {
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 10px;
             margin: 20px;
         }
@@ -39,13 +41,18 @@
 			border: 3px solid green;
 		}
 		#tileDialog {
-			width: 50%;
+			width: 100%;
 		}
     </style>
 </head>
 <body>
     <h1>Canvas képválasztó</h1>
     <div id="canvas-container">
+        <img width="126" height="126">
+        <img width="126" height="126">
+        <img width="126" height="126">
+        <img width="126" height="126">
+        <img width="126" height="126">
         <img width="126" height="126">
         <img width="126" height="126">
         <img width="126" height="126">
@@ -111,7 +118,7 @@
         }
 
         async function loadStratagems() {
-            const response = await fetch('/stratagems.json')
+            const response = await fetch('/wsad.json')
             const data = await response.json()
             return data
         }
