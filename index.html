@@ -54,10 +54,10 @@
         <img width="126" height="126">
         <img width="126" height="126">
         <img width="126" height="126">
-        <img width="126" height="126">
-        <img width="126" height="126">
-        <img width="126" height="126">
-        <img width="126" height="126">
+        <img src="kicsinyitett_kepek/SOS_Beacon_Stratagem_Icon.png" data-keys="wsdw" data-class="6" width="126" height="126">
+        <img src="kicsinyitett_kepek/Hellbomb_Stratagem_Icon.png" data-keys="swaswdsw" data-class="6" width="126" height="126">
+        <img src="kicsinyitett_kepek/Supply_Pack_Stratagem_Icon.png" data-keys="sswd" data-class="6" width="126" height="126">
+        <img src="kicsinyitett_kepek/Reinforce_Stratagem_Icon.png" data-keys="wsdaw" data-class="6" width="126" height="126">
     </div>
     <button id="openDialog">Game Mode</button>
 
@@ -105,23 +105,15 @@
 				this.textContent = "Game Mode";
 				
 			}
-			//console.log(this.textContent,this);
-			//tileDialog.showModal();
+			
         });
-        
-        function udlrToWsad(json) { //ezt még meg kell írni
-                json.array.forEach(element => {
-                    element.forEach(karakter => {
-                        
-                    });
-                });
-        }
 
         async function loadStratagems() {
             const response = await fetch('/wsad.json')
             const data = await response.json()
             return data
         }
+
         async function loadImages() {
             const stargems = await loadStratagems();
             const grid = document.getElementById('grid');
@@ -145,51 +137,7 @@
             });
         }
         loadImages();
-        // Kép forrás (sprite sheet)
-        /* const img = new Image();
-        img.src = "output.png"; // ez legyen egy létező 12x12-es képkockákból álló sprite sheet
-
-        img.onload = () => {
-            const grid = document.getElementById("grid");
-            const tileSize = 126;
-            const tilesPerRow = Math.floor(img.width / tileSize);
-            const tilesPerCol = Math.floor(img.height / tileSize);
-
-            for (let y = 0; y < tilesPerCol; y++) {
-                for (let x = 0; x < tilesPerRow; x++) {
-                    const tileCanvas = document.createElement("canvas");
-                    tileCanvas.width = tileSize;
-                    tileCanvas.height = tileSize;
-                    tileCanvas.classList.add("tile");
-
-                    const ctx = tileCanvas.getContext("2d");
-                    ctx.drawImage(
-                        img,
-                        x * tileSize, y * tileSize,
-                        tileSize, tileSize,
-                        0, 0,
-                        tileSize, tileSize
-                    );
-
-                    tileCanvas.addEventListener("click", () => {
-                        if (selectedCanvas && editMode) {
-                            const selectedCtx = selectedCanvas.getContext("2d");
-                            selectedCtx.clearRect(0, 0, selectedCanvas.width, selectedCanvas.height);
-                            selectedCtx.drawImage(
-                                img,
-                                x * tileSize, y * tileSize,
-                                tileSize, tileSize,
-                                0, 0,
-                                selectedCanvas.width, selectedCanvas.height
-                            );
-                            tileDialog.close();
-                        }
-                    });
-
-                    grid.appendChild(tileCanvas);
-                }
-            }
-        }; */
+        
     </script>
 </body>
 </html>
