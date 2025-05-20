@@ -158,39 +158,6 @@ VK_CODE = {'backspace': 0x08,
 #post kérésre leüti a küldött szövegnek
 #megfelelő billentyűket
 class MyRequestHandler(SimpleHTTPRequestHandler):
-    """def do_GET(self):
-        if self.path == '/' or self.path == '/index.html':
-            try:
-                with open('index.html', 'rb') as file:
-                    content = file.read()
-                    self.send_response(200)
-                    self.send_header('Content-Type', 'text/html')
-                    self.end_headers()
-                    self.wfile.write(content)
-            except FileNotFoundError:
-                self.send_response(404)
-                self.send_header('Content-Type', 'text/plain')
-                self.end_headers()
-                self.wfile.write(b'index.html nem talalhato.')
-        elif self.path == '/output.png':
-            try:
-                with open('output.png', 'rb') as file:
-                    content = file.read()
-                    self.send_response(200)
-                    self.send_header('Content-Type', 'image/png')
-                    self.end_headers()
-                    self.wfile.write(content)
-            except FileNotFoundError:
-                self.send_response(404)
-                self.send_header('Content-Type', 'text/plain')
-                self.end_headers()
-                self.wfile.write(b'index.html nem talalhato.')
-        else:
-            self.send_response(404)
-            self.send_header('Content-Type', 'text/plain')
-            self.end_headers()
-            self.wfile.write(b'Az oldal nem talalhato.')
-"""
     def do_POST(self):
         content_length = int(self.headers.get('Content-Length', 0))
         post_data = self.rfile.read(content_length)
