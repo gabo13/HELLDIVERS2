@@ -5,6 +5,7 @@ import random
 import win32api
 import win32con
 
+#virtuális billentyűzet kódok:
 VK_CODE = {'backspace': 0x08,
            'tab': 0x09,
            'clear': 0x0C,
@@ -152,6 +153,10 @@ VK_CODE = {'backspace': 0x08,
            '`': 0xC0
            }
 
+#http szerver kérés kezelője get és post kérésre,
+#get kérésre fájlokat ad vissza
+#post kérésre leüti a küldött szövegnek
+#megfelelő billentyűket
 class MyRequestHandler(SimpleHTTPRequestHandler):
     """def do_GET(self):
         if self.path == '/' or self.path == '/index.html':
@@ -208,9 +213,7 @@ class MyRequestHandler(SimpleHTTPRequestHandler):
 
         self.send_header('Content-Type', 'application/json')
         self.end_headers()
-        self.wfile.write(json.dumps(response).encode('utf-8'))
-
-times_keypress = [0.1]#,3.5,0.4,0.45,0.5]
+        self.wfile.write(json.dumps(response).encode('utf-8'))
 
 def wait():
     time.sleep(0.1)
